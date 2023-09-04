@@ -23,10 +23,10 @@ const image =
 function App() {
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(100);
-  // const [containerHeight, setContainerHeight] = useState("");
-  // const filterRef = useRef();
-  // const containerRef = useRef()
-  // const [content,setContent] = useState(lorem)
+  const [containerHeight, setContainerHeight] = useState("");
+  const filterRef = useRef();
+  const containerRef = useRef()
+  const [content,setContent] = useState(lorem)
 
   
  
