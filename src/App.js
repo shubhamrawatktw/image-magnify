@@ -23,20 +23,20 @@ const image =
 function App() {
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(100);
-  // const [containerHeight, setContainerHeight] = useState("");
-  // const filterRef = useRef();
-  // const containerRef = useRef()
-  // const [content,setContent] = useState(lorem)
+  const [containerHeight, setContainerHeight] = useState("");
+  const filterRef = useRef();
+  const containerRef = useRef()
+  const [content,setContent] = useState(lorem)
 
   
  
   // 100 * (px/vh) 
-  // useEffect(() => {
-  //  setTimeout(()=>{
-  //   setContent("")
-  //  },5000)
+  useEffect(() => {
+   setTimeout(()=>{
+    setContent("")
+   },5000)
 
-  // }, []);
+  }, []);
 
   useLayoutEffect(()=>{
     
