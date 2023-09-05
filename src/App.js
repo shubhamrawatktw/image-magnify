@@ -31,12 +31,12 @@ function App() {
   
  
   // 100 * (px/vh) 
-  useEffect(() => {
-   setTimeout(()=>{
-    setContent("")
-   },5000)
+  // useEffect(() => {
+  //  setTimeout(()=>{
+  //   setContent("")
+  //  },5000)
 
-  }, []);
+  // }, []);
 
   useLayoutEffect(()=>{
     
