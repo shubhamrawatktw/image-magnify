@@ -3,23 +3,8 @@ import { useLayoutEffect } from "react";
 import { useRef, useState } from "react";
 import Rheostat from "rheostat";
 import "rheostat/initialize";
-const image =
-  "https://upload.wikimedia.org/wikipedia/commons/8/81/Salman_Khan_filmfare.jpg";
-  const lorem = `iure tempore aperiam praesentium recusandae nisi voluptatum. Tempore
-  id ullam quis suscipit velit accusamus quas, delectus, fuga minus
-  vero, necessitatibus esse. Animi sequi molestiae corrupti sapiente
-  voluptate quos. Lorem ipsum dolor sit amet consectetur adipisicing
-  elit. Soluta a labore quisquam. Facilis ratione neque distinctio
-  aliquam, accusamus eveniet maiores error, eum iure tempore aperiam
-  // praesentium recusandae nisi voluptatum. Tempore id ullam quis suscipit
-  // velit accusamus quas, delectus, fuga minus vero, necessitatibus esse.
-  // // Animi sequi molestiae corrupti sapiente voluptate quos. Lorem ipsum
-  // // dolor sit amet consectetur adipisicing elit. Soluta a labore quisquam.
-  // // Facilis ratione neque distinctio aliquam, accusamus eveniet maiores
-  // // error, eum iure tempore aperiam praesentium recusandae nisi
-  // // voluptatum. Tempore id ullam quis suscipit velit accusamus quas,
-  // // delectus, fuga minus vero, necessitatibus esse. Animi sequi molestiae
-  // // corrupti sapiente voluptate quos.`
+
+
 function App() {
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(100);
