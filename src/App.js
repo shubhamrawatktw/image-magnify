@@ -54,7 +54,7 @@ function App() {
           ratione neque distinctio aliquam, accusamus eveniet maiores error, eum
           {content}
         </div>
-        {/* <Rheostat
+        <Rheostat
         min={1}
         max={100}
         values={[min, max]}
@@ -62,7 +62,7 @@ function App() {
           setMin(e.values[0]);
           setMax(e.values[1]);
         }}
-      /> */}
+      />
         <div>
           <div className="flex space-x-2">
             <p>min</p>
