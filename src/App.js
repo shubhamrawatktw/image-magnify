@@ -44,14 +44,14 @@ function App() {
     <div  className="grid grid-cols-4">
       <div ref={filterRef} className={`b w-full ${content === "" ? "h-screen" : "h-max"}`}>
         <div>
-          {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quia rem
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quia rem
           mollitia eveniet provident quibusdam voluptatibus praesentium fugit
           inventore aut consequuntur autem reiciendis ipsam vel libero
           blanditiis commodi magni ipsum officia, natus est. Exercitationem,
           nisi quod quisquam suscipit est alias sequi accusantium ea ullam
           distinctio, optio eligendi quo eum sit! Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Soluta a labore quisquam. Facilis
-          ratione neque distinctio aliquam, accusamus eveniet maiores error, eum */}
+          ratione neque distinctio aliquam, accusamus eveniet maiores error, eum
           {content}
         </div>
         <Rheostat
