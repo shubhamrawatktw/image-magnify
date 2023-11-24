@@ -14,17 +14,17 @@ function App() {
   // };
 
   return (
-    <div className="h-[100vh]">
+    <div className="h-[100vh] bg-black">
       <Canvas
         shadows
-        camera={{ position: [2, 2, 6], fov: 25 }}
+        camera={{ position: [2, 2, 6], fov: 15 }}
         gl={{ preserveDrawingBuffer: true }}
         //  camera={{
         //   position:[2,2,6]
         //  }}
         //  onCreated={creatingCanvasHandler}
       >
-        {/* <ambientLight intensity={1} /> */}
+        <ambientLight intensity={1} />
         {/* <Environment preset="city" /> */}
         <Shirt />
         {/* <Scene/> */}
