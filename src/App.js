@@ -14,10 +14,10 @@ function App() {
   // };
 
   return (
-    <div className="h-[100vh] bg-black">
+    <div className="h-[100vh] ">
       <Canvas
         shadows
-        camera={{ position: [2, 2, 6], fov: 15 }}
+        camera={{ position: [0, 2, 6], fov: 15 }}
         gl={{ preserveDrawingBuffer: true }}
         //  camera={{
         //   position:[2,2,6]
