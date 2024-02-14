@@ -13,7 +13,7 @@
  }
  /* range btw min and max  */
  .DefaultProgressBar_progressBar {
-    position: absolute;
+    position: relative;
     
  }
  
